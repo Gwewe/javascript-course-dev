@@ -31,6 +31,6 @@ function sayHey(name) {
 function futureAge(name, x) {
     sayHey(name)
     x = x + 5
-    return "Yay " + name+ "! You will " + x + " years old in 5 years"
+    return "Yay, so " + name+ "! You will " + x + " years old in 5 years"
 }
-console.log(futureAge("Wedna", 28))
+console.log(futureAge("Sabrina", 28));
