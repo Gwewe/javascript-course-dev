@@ -12,15 +12,25 @@
 // c = a + b
 // console.log("There we go:" + c)
 
-function sayHey() {
-    console.log("Bonjour!");
+// function sayHey() {
+//     console.log("Bonjour!");
+// }
+
+
+// function conversation() {
+//     sayHey();
+//     console.log("How are you?");
+//     console.log("Bonne soirée!");
+// }
+
+// conversation()
+
+function sayHey(name) {
+        console.log("Bonjour, " + name + "!");
+    }
+function futureAge(name, x) {
+    sayHey(name)
+    x = x + 5
+    return "Yay " + name+ "! You will " + x + " years old in 5 years"
 }
-
-
-function conversation() {
-    sayHey();
-    console.log("How are you?");
-    console.log("Bonne soirée!");
-}
-
-conversation()
+console.log(futureAge("Wedna", 28))
