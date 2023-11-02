@@ -43,7 +43,11 @@ function multiply_by (a,b) {
 console.log(multiply_by(10, 150))
 
 function calculate_seconds_from_days (number_of_days) {
-    return number_of_days * 24 * 60 * 60 + " seconds in" + number_of_days + " days!";
+    return number_of_days * 24 * 60 * 60 + " seconds in " + number_of_days + " days!";
 }
 
 console.log(calculate_seconds_from_days(50))
+
+const calculate_cost = (distance) => "£" + distance * 3.5;
+
+console.log(calculate_cost(4))
